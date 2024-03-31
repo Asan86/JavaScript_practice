@@ -1,0 +1,53 @@
+body {
+  background-color: #73b0f4;
+  margin: 0;
+  padding: 0;
+}
+
+.toggle {
+  background-color: #fff;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#arrow {
+  color: #73b0f4;
+  font-size: 50px;
+  transition: 1s;
+}
+
+.menu {
+  background-color: #fff;
+  position: absolute;
+  width: 100px;
+  top: 100px;
+  left: -100px;
+  border-radius: 0 0 15px 0;
+  padding-bottom: 10px;
+  transition: 1s;
+}
+
+a {
+  display: block;
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+a > .material-icons {
+  font-size: 50px;
+  color: #d2d2d2;
+  transition: 0.5s;
+}
+
+a:hover .material-icons {
+  color: #73b0f4;
+  transform: scale(1.3);
+}
