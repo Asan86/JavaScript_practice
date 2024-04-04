@@ -22,7 +22,7 @@ body {
   color: white;
   position: absolute;
   top: 20px;
-  left: 32px;
+  left: 24px;
   transition: 1s;
 }
 
@@ -61,17 +61,17 @@ a:nth-child(2) {
 
 a:nth-child(3) {
   top: 58px;
-  left: 76px;
+  left: 74px;
 }
 
 a:nth-child(4) {
   top: 78px;
-  left: 45px;
+  left: 43px;
 }
 
 a:nth-child(5) {
   top: 58px;
-  left: 12px;
+  left: 10px;
 }
 
 a:nth-child(6) {
